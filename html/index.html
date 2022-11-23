@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <nav>
+        <h1 id="page-title" class="title">Marked list</h1>
+        <ul id="main-nav" class="nav">
+          <li class="main-nav__item"><a href="">Verduras</a></li>
+          <li class="main-nav__item"><a href="">Frutas</a></li>
+          <li class="main-nav__item"><a href="">Carnes</a></li>
+          <li class="main-nav__item"><a href="">Cereales</a></li>
+          <li class="main-nav__item"><a href="">Lacteos</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-header">
+      <h1 id="menu-title" class="title__menu">Compras para la alacena</h1>
+      <section>
+        <h3>Verduras</h3>
+        <figure>
+          <img src="./verduras.jpg" alt="imagen de verduras" />
+        </figure>
+        <figcaption>imagen de verduras</figcaption>
+      </section>
+      <section>
+        <h3>Frutas</h3>
+        <figure>
+          <img src="./frutas.jpg" alt="imagen de trutas" />
+        </figure>
+        <figcaption>imagen de trutas</figcaption>
+      </section>
+      <section>
+        <h3>carnes</h3>
+        <figure>
+          <img src="./carnes.jpg" alt="imagen de carnes" />
+        </figure>
+        <figcaption>imagen de carnes</figcaption>
+      </section>
+      <section>
+        <h3>cereales</h3>
+        <figure>
+          <img src="./cereales.jpg" alt="imagen de cereales" />
+        </figure>
+        <figcaption>imagen de cereales</figcaption>
+      </section>
+      <section>
+        <h3>Recetas</h3>
+        <div>
+          <video src="./pollo_plancha.mp4" controls preload="auto"></video>
+        </div>
+      </section>
+      <div>
+        <h3>Datos</h3>
+        <form action="">
+          <label for="nombre">
+            <span>Nombre</span>
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Nombre"
+              autocomplete="name"
+              required
+            />
+          </label>
+          <label for="email">
+            <span>Email</span>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              autocomplete="email"
+              required
+            />
+          </label>
+          <label for="mensaje">
+            <span>Mensaje</span>
+            <input
+              type="text"
+              id="mensaje"
+              name="mensaje"
+              placeholder="Mensaje"
+              required
+            />
+          </label>
+          <label for="fecha">
+            <span>Fecha</span>
+            <input type="date" id="Fecha" name="fecha" placeholder="Fecha" />
+          </label>
+          <label for="tiempo estimado">
+            <span>hora de entrega</span>
+            <input
+              type="time"
+              id="tiempo estimado"
+              placeholder="tiempo de entrega"
+              required
+            />
+          </label>
+          <input type="submit" id="botton" />
+        </form>
+      </div>
+    </main>
+    <footer>
+      <h3>Redes Sociales</h3>
+      <ul>
+        <li>
+          <a href="">twitter</a>
+        </li>
+        <li>
+          <a href="">facebock</a>
+        </li>
+        <li>
+          <a href="">watssap</a>
+        </li>
+        <li>
+          <a href="">instagram</a>
+        </li>
+      </ul>
+      <div></div>
+      <div class="barra-footer">&copy; Derechos Reservados - 2022</div>
+    </footer>
+  </body>
+</html>
